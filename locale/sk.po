@@ -1,0 +1,273 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:party.erase:"
+msgid ""
+"The party \"%(party)s\" can not be erased because he has opened projects for"
+" the company \"%(company)s\"."
+msgstr ""
+
+msgctxt "error:project.work:"
+msgid ""
+"Work \"%(child)s\" can not be opened because its parent work \"%(parent)s\" "
+"is already done."
+msgstr ""
+
+msgctxt "error:project.work:"
+msgid ""
+"Work \"%(parent)s\" can not be done because its child work \"%(child)s\" is "
+"still opened."
+msgstr ""
+
+msgctxt "field:project.work,children:"
+msgid "Children"
+msgstr "Sub projekty/úlohy"
+
+msgctxt "field:project.work,comment:"
+msgid "Comment"
+msgstr "Komentár"
+
+msgctxt "field:project.work,company:"
+msgid "Company"
+msgstr "Spoločnosť"
+
+msgctxt "field:project.work,create_date:"
+msgid "Create Date"
+msgstr ""
+
+msgctxt "field:project.work,create_uid:"
+msgid "Create User"
+msgstr ""
+
+msgctxt "field:project.work,effort_duration:"
+msgid "Effort"
+msgstr "Plánovaná práca"
+
+msgctxt "field:project.work,id:"
+msgid "ID"
+msgstr ""
+
+msgctxt "field:project.work,left:"
+msgid "Left"
+msgstr "Ľavý"
+
+msgctxt "field:project.work,name:"
+msgid "Name"
+msgstr "Názov"
+
+msgctxt "field:project.work,parent:"
+msgid "Parent"
+msgstr "Rodič"
+
+msgctxt "field:project.work,party:"
+msgid "Party"
+msgstr "Strana"
+
+msgctxt "field:project.work,party_address:"
+msgid "Contact Address"
+msgstr "Kontaktná adresa"
+
+msgctxt "field:project.work,progress:"
+msgid "Progress"
+msgstr "Progres"
+
+msgctxt "field:project.work,rec_name:"
+msgid "Record Name"
+msgstr "Názov položky"
+
+msgctxt "field:project.work,right:"
+msgid "Right"
+msgstr "Pravý"
+
+msgctxt "field:project.work,sequence:"
+msgid "Sequence"
+msgstr "Sekvencia"
+
+msgctxt "field:project.work,state:"
+msgid "State"
+msgstr "Stav"
+
+msgctxt "field:project.work,timesheet_available:"
+msgid "Available on timesheets"
+msgstr "Dostupné v časových rozvrhoch"
+
+msgctxt "field:project.work,timesheet_duration:"
+msgid "Duration"
+msgstr "Trvanie"
+
+msgctxt "field:project.work,timesheet_end_date:"
+msgid "Timesheet End"
+msgstr "Koniec rozvrhu"
+
+msgctxt "field:project.work,timesheet_start_date:"
+msgid "Timesheet Start"
+msgstr "Štart rozvrhu"
+
+msgctxt "field:project.work,timesheet_works:"
+msgid "Timesheet Works"
+msgstr "Časový rozvrh"
+
+msgctxt "field:project.work,total_effort:"
+msgid "Total Effort"
+msgstr "Celková odhadovaná práca"
+
+msgctxt "field:project.work,total_progress:"
+msgid "Total Progress"
+msgstr "Celkový progress"
+
+msgctxt "field:project.work,type:"
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "field:project.work,write_date:"
+msgid "Write Date"
+msgstr ""
+
+msgctxt "field:project.work,write_uid:"
+msgid "Write User"
+msgstr ""
+
+msgctxt "help:project.work,effort_duration:"
+msgid "Estimated Effort for this work"
+msgstr "Odhadovaná práca pre túto úlohu"
+
+msgctxt "help:project.work,progress:"
+msgid "Estimated progress for this work"
+msgstr "Odhadovaný progress pre túto prácu"
+
+msgctxt "help:project.work,timesheet_duration:"
+msgid "Total time spent on this work and the sub-works"
+msgstr ""
+
+msgctxt "help:project.work,total_effort:"
+msgid "Estimated total effort for this work and the sub-works"
+msgstr ""
+
+msgctxt "help:project.work,total_progress:"
+msgid "Estimated total progress for this work and the sub-works"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_open_child_work"
+msgid "Tasks"
+msgstr "Úlohy"
+
+msgctxt "model:ir.action,name:act_project_form"
+msgid "Projects"
+msgstr "Projekty"
+
+msgctxt "model:ir.action,name:act_project_tree"
+msgid "Projects"
+msgstr "Projekty"
+
+msgctxt "model:ir.action,name:act_task_form"
+msgid "Tasks"
+msgstr "Úlohy"
+
+msgctxt "model:ir.action,name:act_timesheet_line_form_work"
+msgid "Timesheet Lines"
+msgstr "Timesheet Lines"
+
+msgctxt "model:ir.action,name:act_work_list"
+msgid "Works Efforts"
+msgstr "Works Efforts"
+
+msgctxt "model:ir.action,name:act_work_tree"
+msgid "Works Efforts"
+msgstr "Works Efforts"
+
+msgctxt "model:ir.action.act_window.domain,name:act_project_form_done"
+msgid "Done"
+msgstr "Hotovo"
+
+msgctxt "model:ir.action.act_window.domain,name:act_project_form_opened"
+msgid "Opened"
+msgstr "Otvorený"
+
+msgctxt "model:ir.action.act_window.domain,name:act_project_tree_done"
+msgid "Done"
+msgstr "Hotový"
+
+msgctxt "model:ir.action.act_window.domain,name:act_project_tree_opened"
+msgid "Opened"
+msgstr "Otvorený"
+
+msgctxt "model:ir.action.act_window.domain,name:act_task_form_done"
+msgid "Done"
+msgstr "Hotovo"
+
+msgctxt "model:ir.action.act_window.domain,name:act_task_form_opened"
+msgid "Opened"
+msgstr "Otvorený"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_project"
+msgid "Project"
+msgstr "Projekt"
+
+msgctxt "model:ir.ui.menu,name:menu_project_form"
+msgid "Projects"
+msgstr "Projekty"
+
+msgctxt "model:ir.ui.menu,name:menu_project_tree"
+msgid "Projects"
+msgstr "Projekty"
+
+msgctxt "model:ir.ui.menu,name:menu_task_form"
+msgid "Tasks"
+msgstr "Úlohy"
+
+msgctxt "model:ir.ui.menu,name:menu_work_list"
+msgid "Works Efforts"
+msgstr "Works Efforts"
+
+msgctxt "model:ir.ui.menu,name:menu_work_tree"
+msgid "Works Efforts"
+msgstr "Works Efforts"
+
+msgctxt "model:project.work,name:"
+msgid "Work Effort"
+msgstr "Plánovaná práca"
+
+msgctxt "model:res.group,name:group_project_admin"
+msgid "Project Administration"
+msgstr "Administrácia projektu"
+
+msgctxt "selection:project.work,state:"
+msgid "Done"
+msgstr "Hotovo"
+
+msgctxt "selection:project.work,state:"
+msgid "Opened"
+msgstr "Otvorený"
+
+msgctxt "selection:project.work,type:"
+msgid "Project"
+msgstr "Projekt"
+
+msgctxt "selection:project.work,type:"
+msgid "Task"
+msgstr "Úloha"
+
+msgctxt "view:project.work:"
+msgid "%"
+msgstr "%"
+
+msgctxt "view:project.work:"
+msgid "End:"
+msgstr "Koniec"
+
+msgctxt "view:project.work:"
+msgid "General"
+msgstr "Všeobecné"
+
+msgctxt "view:project.work:"
+msgid "Start:"
+msgstr "Štart:"
+
+msgctxt "view:project.work:"
+msgid "Timesheet:"
+msgstr ""
