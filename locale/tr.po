@@ -2,76 +2,49 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "error:party.erase:"
-msgid ""
-"The party \"%(party)s\" can not be erased because he has opened projects for"
-" the company \"%(company)s\"."
-msgstr ""
-
-msgctxt "error:project.work:"
-msgid ""
-"Work \"%(child)s\" can not be opened because its parent work \"%(parent)s\" "
-"is already done."
-msgstr ""
-
-msgctxt "error:project.work:"
-msgid ""
-"Work \"%(parent)s\" can not be done because its child work \"%(child)s\" is "
-"still opened."
-msgstr ""
-
-#, fuzzy
 msgctxt "field:project.work,children:"
 msgid "Children"
-msgstr "Gyermek (csomag)"
+msgstr "Alt Öge"
 
-#, fuzzy
 msgctxt "field:project.work,comment:"
 msgid "Comment"
-msgstr "Megjegyzés"
+msgstr "Açıklama"
 
-#, fuzzy
 msgctxt "field:project.work,company:"
 msgid "Company"
-msgstr "Társaság"
+msgstr "Firma"
 
-#, fuzzy
 msgctxt "field:project.work,create_date:"
 msgid "Create Date"
-msgstr "Létrehozás détuma"
+msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,create_uid:"
 msgid "Create User"
-msgstr "Által létrehozva "
+msgstr ""
 
 msgctxt "field:project.work,effort_duration:"
 msgid "Effort"
 msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,id:"
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 msgctxt "field:project.work,left:"
 msgid "Left"
 msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,name:"
 msgid "Name"
-msgstr "Név"
+msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,parent:"
 msgid "Parent"
-msgstr "Szülő (csomag)"
+msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,party:"
 msgid "Party"
-msgstr "Partner"
+msgstr ""
 
 msgctxt "field:project.work,party_address:"
 msgid "Contact Address"
@@ -89,34 +62,29 @@ msgctxt "field:project.work,right:"
 msgid "Right"
 msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,sequence:"
 msgid "Sequence"
-msgstr "Számkör"
+msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,state:"
 msgid "State"
-msgstr "Állapot"
+msgstr ""
 
 msgctxt "field:project.work,timesheet_available:"
 msgid "Available on timesheets"
 msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,timesheet_duration:"
 msgid "Duration"
-msgstr "Időtartam"
+msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,timesheet_end_date:"
 msgid "Timesheet End"
-msgstr "Időkövetés vége"
+msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,timesheet_start_date:"
 msgid "Timesheet Start"
-msgstr "Időkövetés kezdete"
+msgstr ""
 
 msgctxt "field:project.work,timesheet_works:"
 msgid "Timesheet Works"
@@ -130,20 +98,17 @@ msgctxt "field:project.work,total_progress:"
 msgid "Total Progress"
 msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,type:"
 msgid "Type"
-msgstr "Típus"
+msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,write_date:"
 msgid "Write Date"
-msgstr "utolsó módosítás dátuma"
+msgstr ""
 
-#, fuzzy
 msgctxt "field:project.work,write_uid:"
 msgid "Write User"
-msgstr "Által módosítva"
+msgstr ""
 
 msgctxt "help:project.work,effort_duration:"
 msgid "Estimated Effort for this work"
@@ -193,37 +158,47 @@ msgctxt "model:ir.action,name:act_work_tree"
 msgid "Works Efforts"
 msgstr "Works Efforts"
 
-#, fuzzy
 msgctxt "model:ir.action.act_window.domain,name:act_project_form_done"
 msgid "Done"
-msgstr "Kész"
+msgstr "Done"
 
 msgctxt "model:ir.action.act_window.domain,name:act_project_form_opened"
 msgid "Opened"
 msgstr "Opened"
 
-#, fuzzy
 msgctxt "model:ir.action.act_window.domain,name:act_project_tree_done"
 msgid "Done"
-msgstr "Kész"
+msgstr "Done"
 
 msgctxt "model:ir.action.act_window.domain,name:act_project_tree_opened"
 msgid "Opened"
 msgstr "Opened"
 
-#, fuzzy
 msgctxt "model:ir.action.act_window.domain,name:act_task_form_done"
 msgid "Done"
-msgstr "Kész"
+msgstr "Done"
 
 msgctxt "model:ir.action.act_window.domain,name:act_task_form_opened"
 msgid "Opened"
 msgstr "Opened"
 
-#, fuzzy
+msgctxt "model:ir.message,text:msg_erase_party_opened_project"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have opened projects with "
+"company \"%(company)s\"."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_work_invalid_children_state"
+msgid "To close work \"%(parent)s\", you must close its child \"%(child)s\"."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_work_invalid_parent_state"
+msgid "To open work \"%(child)s\", you must open its parent \"%(parent)s\"."
+msgstr ""
+
 msgctxt "model:ir.ui.menu,name:menu_configuration"
 msgid "Configuration"
-msgstr "Beállítások"
+msgstr "Configuration"
 
 msgctxt "model:ir.ui.menu,name:menu_project"
 msgid "Project"
@@ -261,7 +236,7 @@ msgstr "Project Administration"
 #, fuzzy
 msgctxt "selection:project.work,state:"
 msgid "Done"
-msgstr "Kész"
+msgstr "Done"
 
 #, fuzzy
 msgctxt "selection:project.work,state:"
@@ -278,7 +253,6 @@ msgctxt "selection:project.work,type:"
 msgid "Task"
 msgstr "Tasks"
 
-#, fuzzy
 msgctxt "view:project.work:"
 msgid "%"
 msgstr "%"
@@ -298,8 +272,3 @@ msgstr ""
 msgctxt "view:project.work:"
 msgid "Timesheet:"
 msgstr ""
-
-#, fuzzy
-msgctxt "view:project.work:"
-msgid "Children"
-msgstr "Gyermek (csomag)"
